@@ -1,0 +1,6 @@
+services:
+  web:
+    image: html-css-container:latest
+    ports:
+      - "80:80"
+    restart: always
